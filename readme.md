@@ -1,40 +1,21 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+# Frontend Assessment (ReactJS + TS) - Exercise 1
 
-Exercise 1
----
-Build a responsive page based on the designs.
+This project created using vite with ReactJS + Typescript [@vite](https://vitejs.dev/guide/), and yarn for package manager. Before we proceed make sure to install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) and [Nodejs](https://nodejs.org/en/download/package-manager) on you machine. If not installed yet, please do so.
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+## How to run the project
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+1. Run this command to install the project package dependencies:
 
-##### Assets
-* Desktop banner - https://via.placeholder.com/1920x650
-* Mobile banner - https://via.placeholder.com/600x600
-* Content images - https://via.placeholder.com/400x300
+- ```ssh
+  $ yarn install
+  ```
 
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
+2. After successfully installed, you can now run the project by this command:
 
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+- ```ssh
+  $ yarn dev
+  ```
 
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+3. Open the project by clicking this link [http://localhost:5173/](http://localhost:5173/) on your favorite browser or link on the terminal.
 
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+Tada! That's it. Enjoy.

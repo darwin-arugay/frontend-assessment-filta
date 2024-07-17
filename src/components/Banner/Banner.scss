@@ -1,0 +1,37 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__overlay {
+    @apply px-5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    @apply text-5xl sm:text-6xl mb-2 font-semibold tracking-wide;
+    color: inherit;
+  }
+
+  &__description {
+    @apply text-xl sm:text-2xl font-light tracking-wider;
+    color: inherit;
+  }
+}

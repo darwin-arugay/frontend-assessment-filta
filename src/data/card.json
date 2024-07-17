@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": {
+      "src": "https://via.placeholder.com/400x300",
+      "alt": "Card 1"
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nobis voluptatum aperiam velit. Dicta, recusandae vero. Dolor, adipisci corporis magnam facilis veritatis ut sit enim harum rem iusto explicabo accusamus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nobis voluptatum aperiam velit."
+  },
+  {
+    "id": 2,
+    "img": {
+      "src": "https://via.placeholder.com/400x300",
+      "alt": "Card 2"
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nobis voluptatum aperiam velit. Dicta, recusandae vero."
+  },
+  {
+    "id": 1,
+    "img": {
+      "src": "https://via.placeholder.com/400x300",
+      "alt": "Card 3"
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nobis voluptatum aperiam velit. Dicta, recusandae vero. Dolor, adipisci corporis magnam facilis veritatis ut sit enim harum rem iusto explicabo accusamus."
+  }
+]
