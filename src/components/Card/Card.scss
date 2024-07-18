@@ -4,10 +4,17 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  max-height: 500px;
+  transition: all 0.5s;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transform: scale(1.025);
+    }
+  }
 
   @media (min-width: 768px) {
     width: 320px;
+    max-height: 500px;
   }
 
   &__content {
@@ -29,10 +36,19 @@
 
   &__button {
     @apply px-4 py-2 mt-4 rounded-full text-sm tracking-wide font-extrabold;
-    color: black;
-    border: 3px solid black;
+    color: #000;
+    border: 3px solid #000;
     text-transform: uppercase;
     width: 150px;
     align-self: center;
+    transition: 0.5s;
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        border-color: transparent;
+        color: #fff;
+        background-color: #000;
+      }
+    }
   }
 }
