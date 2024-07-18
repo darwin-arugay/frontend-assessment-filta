@@ -4,11 +4,13 @@
 
 ### Table of Contents
 
-1. [Introduction]
-2. [Project structure]
-3. [How to setup project]
-4. Component overview
-5. Usage
+1. [Introduction](#1-introduction)
+2. [Project Structure](#2-project-structure)
+3. [How to Setup Sroject](#3-how-to-setup-the-project)
+4. [Component Overview](#4-components-overview)
+5. [Usage](#5-usage)
+6. [Styling Guidelines](#6-styling-guidelines)
+7. [Example Usage](#7-example-usage)
 
 ---
 
