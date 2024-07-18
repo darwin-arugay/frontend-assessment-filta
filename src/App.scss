@@ -1,0 +1,24 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__container {
+  border-radius: 2rem;
+  display: flex;
+  margin-top: 4rem;
+
+  flex-direction: column;
+  gap: 4rem;
+
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  width: max-content;
+  padding: 8rem;
+  color: var(--text-color);
+  background: var(--bg-color);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,25 @@
+.tab {
+  &__button {
+    @apply py-2 px-4 rounded-md text-sm font-bold min-w-24 flex;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    color: #333;
+
+    // Hover works only in web
+    @media (hover: hover) and (pointer: fine) {
+      &:hover:not(&_disabled) {
+        @apply bg-blue-700 text-white;
+      }
+    }
+
+    &_active {
+      @apply bg-blue-600 text-white;
+    }
+
+    &_disabled {
+      @apply opacity-50;
+      cursor: not-allowed;
+    }
+  }
+}

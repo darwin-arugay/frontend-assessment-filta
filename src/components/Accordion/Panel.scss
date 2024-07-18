@@ -1,0 +1,30 @@
+.accordion {
+  &__panel {
+    @apply shadow-md rounded-md bg-slate-100 p-4 my-2 mx-0;
+
+    &__title {
+      @apply text-lg font-semibold;
+    }
+
+    &__icon {
+      cursor: pointer;
+
+      &_active {
+        transition: transform 1s;
+        transform: rotate(180deg);
+      }
+    }
+
+    &__content {
+      @apply py-0;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+
+      &_expanded {
+        @apply pt-3 py-2;
+        max-height: 500px;
+      }
+    }
+  }
+}
